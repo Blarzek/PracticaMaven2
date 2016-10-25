@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hpds</groupId>
+  <artifactId>PracticaMaven2Padre</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>PracticaMaven2Padre</name>
+
+  <modules>
+    <module>PracticaMaven2Hijo1</module>
+    <module>PracticaMaven2Hijo2</module>
+  </modules>
+
+  <distributionManagement>
+    <repository>
+      <id>company.repository</id>
+      <name>Enterprise Maven Repository</name>
+
+      <url>file:///Users/usuario/Documents/mirepositorio
+      </url>
+    </repository>
+  </distributionManagement>
+</project>
